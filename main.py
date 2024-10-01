@@ -1,4 +1,5 @@
 from flet import *
+#count variable
 count = 0
 
 def main(page:Page):
@@ -6,7 +7,7 @@ def main(page:Page):
     page.vertical_alignment="center"
 
 
-    
+    # button function
     def action(*args):
         global count
         count += 1
