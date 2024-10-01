@@ -58,7 +58,7 @@ jobs:
         name: windows-build-artifact
         path: build/windows
         if-no-files-found: warn
-        overwrite: true
+        overwrite: false
 
   build-aab:
     runs-on: macos-latest
